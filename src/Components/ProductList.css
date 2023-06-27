@@ -1,0 +1,38 @@
+.product-list {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #94bdbc7f;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.search-box {
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid;
+}

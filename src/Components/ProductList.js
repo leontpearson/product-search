@@ -99,9 +99,7 @@ class ProductList extends Component {
           <button onClick={() => this.setFilterCategory("shirts")}>
             Shirts
           </button>
-          <button onClick={() => this.setFilterCategory("pants")}>
-            Pants & Skirts
-          </button>
+          <button onClick={() => this.setFilterCategory("pants")}>Pants</button>
           <button onClick={() => this.setFilterCategory("jackets")}>
             Jackets
           </button>
